@@ -18,7 +18,7 @@ import math
 class MongolianTentSolver:
     def __init__(self, n: int):
         # Give an error if n is not between 5 and 50 since these are the bounds from the project
-        if not 5 <= n <= 50000:
+        if not 5 <= n <= 50:
             raise ValueError("n must be between 5 and 50")
 
         # Setting variables in the class based on the user input
